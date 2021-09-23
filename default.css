@@ -84,9 +84,18 @@ nav > * {
   color: black;
 }
 
+.find-table-nav-button:hover {
+  background-color: black;
+  color: white;
+}
+
 .button.host-table-nav-button {
   background-color: #b03331;
   color: white;
+}
+
+.host-table-nav-button:hover {
+  background-color: #66201e;
 }
 
 .cta-buttons {
@@ -110,7 +119,13 @@ nav > * {
   border-radius: 50%;
   height: 60px;
   width: auto;
+  transition: height .2s;
 }
+
+.login > a > img:hover  {
+  opacity: .8;
+}
+
 
 /* width */
 ::-webkit-scrollbar {

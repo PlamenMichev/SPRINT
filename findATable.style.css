@@ -60,6 +60,11 @@
     color: black;
 }
 
+.join-button:hover {
+    background-color: black;
+    color: white;
+}
+
 .player:first-of-type {
     width: auto;
     height: 100px;

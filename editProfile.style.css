@@ -117,6 +117,12 @@ label {
 }
 
 #submit-button {
+    background-color: white;
+    color: black;
+    font-weight: 600;
+}
+
+#submit-button:hover {
     background-color: black;
     color: white;
 }

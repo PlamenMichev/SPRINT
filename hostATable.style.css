@@ -29,6 +29,12 @@
 }
 
 #confirm-button { 
+    background-color: white;
+    color: black;
+    font-weight: 600;
+}
+
+#confirm-button:hover { 
     background-color: black;
     color: white;
 }
