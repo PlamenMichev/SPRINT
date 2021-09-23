@@ -1,0 +1,139 @@
+.form-container {
+    position: relative;
+    background-color: #b03331;
+    border-radius: 20px;
+    padding: 20px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+#confirm-button { 
+    background-color: black;
+    color: white;
+}
+
+.form-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-side {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-side {
+    width: 30%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.terms-and-conditions {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+}
+
+#confirm-button {
+    margin-top: 30px;
+    width: 60%;
+}
+
+.description-field {
+    width: 100%;
+}
+
+#name-input {
+    height: 30px;
+}
+
+.row-input { 
+    width: 30%;
+}
+
+input::placeholder {
+    color: white;
+    text-align: center;
+}
+
+/* For Edge Support */
+input::-ms-input-placeholder {
+    color: white;
+    text-align: center;
+}
+
+#date-picker {
+    height: 30px;
+}
+
+#date-picker::-webkit-datetime-edit {
+    color: white;
+    text-align: center;
+}
+
+#date-picker::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+#players-count-field {
+    width: 30px;
+    height: 20px;
+    padding-left: 7px;
+}
+
+input {
+    color: white;
+    border-radius: 10px;
+    background-color: #782624;
+    border: 0;
+    padding: 5px;
+}
+
+textarea {
+    color: white;
+    border-radius: 10px;
+    background-color: #782624;
+    padding: 10px;
+    border: 0;
+}
+
+textarea::placeholder {
+    color: white;
+}
+
+/* For Edge Support */
+textarea::-ms-input-placeholder {
+    color: white;
+}
+
+label {
+    color: white;
+}
+
+.second-form-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first-form-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.time-picker {
+    padding-left: 7px;
+}
+
+.time-picker::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+.terms-and-conditions > label {
+    font-size: 15px;
+    margin-left: 5px;
+}

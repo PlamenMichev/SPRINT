@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="default.css" />
-    <link rel="stylesheet" href="index.style.css" />
+    <link rel="stylesheet" href="hostATable.style.css" />
     <link rel="stylesheet" href="https://use.typekit.net/lza4oji.css">
     <title>Aarhus Brætspilscafé</title>
 </head>
@@ -47,6 +47,46 @@
 
     <section class="content">
         <h1 class="page-header">Host a table</h1>
+        <div class="form-container">
+            <form>
+                <div class="form-body">
+                    <div class="left-side">
+                        <div class="first-form-row">
+                            <input type="text" placeholder="Table's Name" id="name-input" class="row-input" />
+                            <div class="row-input">
+                                <label>Max players:</label>
+                                <input type="number" max="6" min="2" value="4" id="players-count-field" />
+                            </div>
+                            <div class="allow-strangers row-input">
+                                <input type="checkbox" />
+                                <label>Allow strangers</label>
+                            </div>
+                        </div>
+                        <div class="second-form-row">
+                            <input type="date" id="date-picker" class="row-input" />
+                            <div class="row-input">
+                                <label>From:</label>
+                                <input type="time" class="time-picker" />
+                            </div>
+                            <div class="row-input">
+                                <label>To:</label>
+                                <input type="time" class="time-picker" />
+                            </div>
+
+                        </div>
+                        <div class="terms-and-conditions">
+                            <input type="checkbox" />
+                            <label>I agree that hosting a table binds me to show up, pay and actually host it.</label>
+                        </div>
+                    </div>
+                    <div class="right-side">
+                        <textarea class="description-field" type="text" rows="5"
+                            placeholder="Description..."></textarea>
+                        <button type="submit" class="button" id="confirm-button">CONFIRM</button>
+                    </div>
+                </div>
+            </form>
+        </div>
     </section>
 
     <footer>
