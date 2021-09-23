@@ -1,0 +1,124 @@
+body {
+  overflow: overlay;
+  font-family: 'motor';
+  margin: 0;
+}
+
+header {
+  height: 150px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-image {
+  width: 15%;
+}
+
+.logo-image > img {
+  width: 100%;
+  height: 100%;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown-content > p {
+  cursor: pointer;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+nav {
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+nav > * {
+  text-decoration: none;
+  color: #383838;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0em;
+  text-transform: none;
+  line-height: 1.6em;
+  font-size: 1.2rem;
+  margin: 0 20px;
+}
+
+.nav-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.button {
+  padding: 10px 20px;
+  border-radius: 15px;
+  border: 1px solid #383838;
+  display: block;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.button.find-table-nav-button {
+  background-color: white;
+  margin-bottom: 15px;
+}
+
+.button.host-table-nav-button {
+  background-color: #b03331;
+  color: white;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: end;
+  width: 20%;
+}
+
+.login {
+  margin-left: 65px;
+}
+
+.login > a {
+    cursor: pointer;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: gray; 
+  border-radius: 10px;
+}
+
+.page-header {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-bottom: 15px;
+  position: relative;
+  font-size: 45px;
+}

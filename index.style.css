@@ -1,0 +1,105 @@
+
+.content {
+    height: 600px;
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+    position: relative;
+}
+
+.content::before {    
+    content: "";
+    background-image: url('./images/gamesPageBackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .6;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+}
+
+.info-container {
+    display: flex;
+}
+
+.left-info {
+    width: 70%;
+}
+
+.right-info {
+    width: 30%;
+}
+
+.game-card {
+    position: relative;
+    background-color: #b03331;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.table-info {
+    background-color: #782624;
+    padding: 5px 35px;
+    border-radius: 5px;
+    font-size: 25px;
+    color: white;
+}
+
+.description {
+    color: white;
+    margin-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.description:hover + #kur {
+    display: block;
+}
+
+.join-button {
+    width: 100%;
+    font-size: 30px;
+    font-weight: 600;
+    background-color: white;
+    color: black;
+}
+
+#kur {
+    display: none;
+}
+
+.player:first-of-type {
+    width: auto;
+    height: 100px;
+    text-align: center;
+}
+
+.player {
+    width: auto;
+    height: 80px;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.player-image {
+    width: auto;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.players-container {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.player-name {
+    display: block;
+    color: white;
+}
+
+.game-card {
+    width: 70%;
+    margin: 15px auto;
+}
