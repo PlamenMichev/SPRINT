@@ -1,0 +1,124 @@
+
+nav a {
+    font-weight: 400;
+    margin-right: 20pt;
+    color: black;
+
+}
+.logo-image >img {
+    width: 173px;
+    height: 150px;
+    justify-self: flex-start;
+}
+header {
+    font-family: 'motor',proxima-nova-condensed,sans-serif;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+.navigation {
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.buttons a{
+    display: block;
+    
+}
+.buttons b{
+    display: block;
+    border: 1px;
+}
+
+section a {
+    background-color: #2b5638;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: 1px solid #383838;
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .button.find-table-nav-button {
+    background-color: white;
+    margin-bottom: 15px;
+  }
+  
+  .button.host-table-nav-button {
+    background-color: #b03331;
+    color: white;
+  }
+  
+  .cta-buttons {
+    display: flex;
+    justify-content: end;
+    width: 20%;
+    cursor: pointer;
+  }
+
+  article{
+     text-align: center;
+
+  }
+ 
+
+  h2 {
+      font-size: 24pt;
+      font-weight: 700;
+  }
+
+  input[type=text], input[type=password] {
+      border-radius: 9px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .submit-button {
+    border-radius: 9px;
+    background-color: #b03331;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    margin: 0 auto;
+    width: 120px;
+    margin-top: 20px;
+  }
+  
+  .submit-button:hover {
+    opacity: 0.8;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 16px;
+    flex-direction: column;
+  }
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+
+  article > img {
+    cursor: pointer;
+    margin-bottom: 50px;
+  }

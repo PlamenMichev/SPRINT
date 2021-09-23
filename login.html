@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 
+</html>
+
+<html>
+
 <head>
+  <title>Log-in page</title>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="default.css" />
-  <link rel="stylesheet" href="index.style.css" />
+  <link rel="stylesheet" href="default.css">
+  <link rel="stylesheet" href="login.style.css">
   <link rel="stylesheet" href="https://use.typekit.net/lza4oji.css">
-  <title>Aarhus Brætspilscafé</title>
+  <link rel="stylesheet" href="https://use.typekit.net/fpb7vcj.css">
 </head>
 
 <body>
+
   <header>
     <a href="./index.html" class="logo-image">
       <img src="./images/logo.png" alt="Cafè Logo" />
@@ -45,9 +49,31 @@
     </div>
   </header>
 
-  <section class="content">
-    <h1 class="page-header">This is the home page</h1>
-  </section>
+  <article>
+    <h2>Log in</h2>
+  </article>
+
+  <form>
+    <div class="container">
+      <div class="Username">
+        <input type="text" placeholder="Enter Username" name="uname" required>
+      </div>
+
+      <div class="Password">
+        <input type="password" placeholder="Enter Password" name="psw" required>
+
+      </div>
+
+      <a class="button submit-button" href="./editProfile.html">Login</a>
+    </div>
+
+  </form>
+
+  <article>
+    <img src="images/social-media/google.png" alt="Google" width="50" height="50">
+    <img src="images/social-media/facebook.png" alt="Facebook" width="50" height="50">
+    <img src="images/social-media/twitter.png" alt="Twitter" width="50" height="50">
+  </article>
 
   <footer>
     <div class="wrapper">

@@ -147,3 +147,64 @@ nav > * {
   position: relative;
   font-size: 45px;
 }
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Footer styles */
+
+footer{
+  background-color: black;
+  justify-content: space-between;
+  padding: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+div#one {
+  margin-right: 200px;
+  margin-bottom: 30px;
+}
+div#three {
+  margin-left: 200px;
+}
+p#three {
+  line-height: 2;
+}
+div#contact {
+  margin-bottom: 30px;
+}
+div#menukontrol {
+  margin-top: 40px;
+}
+img#escapist {
+  width: 350px;
+}
+
+footer h1 {
+  color: rgb(224, 179, 96);
+}
+
+footer a {
+  color: rgb(224, 179, 96);
+}
+
+footer p {
+  color: white;
+}
+
+p#first {
+  font-weight: bolder;
+}
+footer span {
+  font-weight: bolder;
+  margin-left: 30px;
+  text-align: left;
+}
+.wrapper {
+  display: flex;
+  border-bottom: 1px;
+  border-color: rgb(224, 179, 96);
+  border-bottom-style: solid;
+  margin-top: 30px;
+}
