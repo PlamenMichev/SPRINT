@@ -16,7 +16,7 @@ header {
 }
 
 .logo-image > img {
-  width: 100%;
+  width: auto;
   height: 100%;
 }
 
@@ -81,6 +81,7 @@ nav > * {
 .button.find-table-nav-button {
   background-color: white;
   margin-bottom: 15px;
+  color: black;
 }
 
 .button.host-table-nav-button {
