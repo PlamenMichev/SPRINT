@@ -1,0 +1,122 @@
+.content {
+    height: 600px;
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+    position: relative;
+}
+
+.content::before {    
+    content: "";
+    background-image: url('./images/background images/editProfileBackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .4;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+}
+
+.deatails-wrapper {
+    position: relative;
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#username-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+#username-box > label {
+    margin-bottom: 10px;
+}
+
+#username-box > input {
+    padding: 10px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+#change-password-button {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#guru-checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#guru-checkbox > label {
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+#guru-checkbox > input {
+    height: 20px;
+    width: 20px;
+}
+
+#games-list-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+#games-list-wrapper > label {
+    margin-bottom: 10px;
+}
+
+#games-list-wrapper > button {
+    margin-bottom: 10px;
+}
+
+textarea {
+    padding: 15px;
+    border-radius: 10px;
+    resize: none;
+    background-color: white;
+}
+
+label { 
+    font-size: 20px;
+}
+
+#profile-picture-box {
+    display: flex;
+    flex-direction: column;
+}
+
+#profile-picture-box > img {
+    height: 200px;
+    width: auto;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+#about-me-box {
+    display: flex;
+    flex-direction: column;
+}
+
+#about-me-box > label {
+    margin-bottom: 10px;
+}
+
+#submit-button {
+    background-color: black;
+    color: white;
+}

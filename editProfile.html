@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="default.css" />
+    <link rel="stylesheet" href="editProfile.style.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/lza4oji.css">
+    <title>Aarhus Brætspilscafé</title>
+</head>
+
+<body>
+    <header>
+        <a href="./index.html" class="logo-image">
+            <img src="./images/logo.png" alt="Cafè Logo" />
+        </a>
+        <nav>
+            <a class="header-nav-item" href="#">The cafes</a>
+            <a href="#">Search games</a>
+            <a href="#">Events</a>
+            <div class="dropdown">
+                <span>In English</span>
+                <div class="dropdown-content">
+                    <p>Concept</p>
+                    <p>The cafes</p>
+                    <p>Reserve a table</p>
+                </div>
+            </div>
+        </nav>
+        <div class="cta-buttons">
+            <div class="nav-buttons">
+                <a class="button find-table-nav-button" href="./findATable.html">
+                    Find a table
+                </a>
+                <a class="button host-table-nav-button" href="./hostATable.html">
+                    Host a table
+                </a>
+            </div>
+
+            <div class="login">
+                <a href="./editProfile.html"><img src="./images/ProfilePicture.jpg" alt="Your profile picture" /></a>
+            </div>
+        </div>
+    </header>
+
+    <section class="content">
+        <h1 class="page-header">Edit profile</h1>
+        <div class="deatails-wrapper">
+            <div class="left-side">
+                <div id="username-box">
+                    <label>Username</label>
+                    <input value="Not_ShReK" />
+                </div>
+                <button class="button" id="change-password-button">Change password</button>
+                <div id="guru-checkbox">
+                    <input type="checkbox" checked />
+                    <label>Guru</label>
+                </div>
+                <div id="games-list-wrapper">
+                    <label>Games list</label>
+                    <button class="button">Search games</button>
+                    <textarea rows="10" disabled>
+Agricola
+Beowulf
+Carcassonne
+Carcassonne: Star Wars
+Snak
+Word Slam
+                    </textarea>
+                </div>
+            </div>
+            <div class="right-side">
+                <div id="profile-picture-box">
+                    <img src="./images/ProfilePicture.jpg" alt="Your profile picture" />
+                    <button class="button">Upload picture</button>
+                </div>
+
+                <div id="about-me-box">
+                    <label>About me</label>
+                    <textarea rows="5">You can write something about yourself.</textarea>
+                </div>
+
+                <button class="button" id="submit-button">Update</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>

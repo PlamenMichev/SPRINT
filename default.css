@@ -101,6 +101,15 @@ nav > * {
 
 .login > a {
     cursor: pointer;
+    display: block;
+    border-radius: 50%;
+}
+
+.login > a > img  {
+  width: 100%;
+  border-radius: 50%;
+  height: 60px;
+  width: auto;
 }
 
 /* width */

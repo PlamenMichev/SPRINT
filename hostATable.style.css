@@ -1,3 +1,24 @@
+.content {
+    height: 600px;
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+    position: relative;
+}
+
+.content::before {    
+    content: "";
+    background-image: url('./images/background images/hostATableBackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .4;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+}
+
 .form-container {
     position: relative;
     background-color: #b03331;
