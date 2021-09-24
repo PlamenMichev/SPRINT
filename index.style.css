@@ -1,6 +1,7 @@
 .content {
     height: 600px;
     position: relative;
+    background-color: lightgray;
 }
 
 #banner {
@@ -16,7 +17,7 @@
 }
 
 footer {
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 
 #banner-text {
