@@ -1,7 +1,29 @@
 .content {
     height: 600px;
-    padding-top: 20px;
-    padding-right: 100px;
-    padding-left: 100px;
     position: relative;
+}
+
+#banner {
+    height: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+#banner > img {
+    width: auto;
+    height: 100%;
+    opacity: .5;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+#banner-text {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 25%;
+    color: black;
+    font-size: 30px;
 }
